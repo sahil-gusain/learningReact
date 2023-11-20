@@ -6,10 +6,10 @@ function App() {
   let [count, setCount] = useState(0)
   
   function updateCount(){
-    setCount(count+1);
+    if(count<20) setCount(count+1);
   }
   function removeCount(){
-    setCount(count+1);
+    if(count>0) setCount(count-1);
   }
 
   return (
