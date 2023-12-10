@@ -4,5 +4,15 @@ Hooks are used to give functional components an access to use the states and are
 useState is used to update the value of the variable so we can update value of at any 
 useState returns the array with variable at 0 index and function at index 1
 let [count,setCount] = useState(12);
-# virtual-dom ,react fibre 
+useCallback
+useEffect:- it reruns the function inside whenever the page is reloaded or the any change occurs in the dependicies
+use
+# virtual-dom , react fibre 
 https://github.com/acdlite/react-fiber-architecture
+# Props
+React allows us to pass information to a Component using something called props (which stands for properties). Props are objects which can be used inside a component.
+React does tasks in batches so for  multiple useState fun it performs a single task 
+
+
+# JAVASCRIPT
+onClick function requires a callback function 
