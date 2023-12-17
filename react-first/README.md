@@ -20,3 +20,6 @@ React does tasks in batches so for  multiple useState funtions  it performs a si
 
 # JAVASCRIPT
 onClick function requires a callback function 
+const d = new Date(); // to get the current Date
+d.getFullYear() : used to get the current year
+d.getMonth()  : used to get the currrent Month
