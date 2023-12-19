@@ -15,6 +15,7 @@ https://github.com/acdlite/react-fiber-architecture
 # Props
 React allows us to pass information to a Component using something called props (which stands for properties). Props are objects which can be used inside a component.
 React does tasks in batches so for  multiple useState funtions  it performs a single task 
+while passing the props always remember to check the case for the null
 
 
 
