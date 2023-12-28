@@ -4,6 +4,7 @@ ALL the component name should be capitilized
 Hooks are used to give functional components an access to use the states and are used to manage side-effects in React. They let developers use state and other React features without writing a class 
 useState is used to update the value of the variable so we can update value of at any 
 useState returns the array with variable at 0 index and function at index 1
+
 let [count,setCount] = useState(12);
 useCallback
 useEffect:- it reruns the function inside whenever the page is reloaded or the any change occurs in the dependicies
@@ -28,6 +29,7 @@ d.getMonth()  : used to get the currrent Month
 The export declaration is used to export values from a JavaScript module
 
 In JavaScript, a callback function is a function that is passed as an argument to another function and is executed after the completion of some operation
+IN ES6 and later versions of javaScript ,curly braces {} are used in import statements to selectively import named export from modules.
 
 # Redux 
 redux is a state management library for javascript applications.It provides predictable state container that helps in managing the state of applications
@@ -43,4 +45,4 @@ Selectors:- IT is a function used to extract specific pieces of from the store
 Redux follows a unidirectional data flow,making it easier to understand data changes occur in the applications
 
 # TypeScript
-interface : in typescript it is a way to define the contract that an object should follow. It specifies names and types of properties that an object should have
+interface : in typescript it is a way to define the contract that an object should follow. It specifies names and types of properties that an object should have.
