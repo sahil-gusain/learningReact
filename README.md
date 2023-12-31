@@ -46,3 +46,5 @@ Redux follows a unidirectional data flow,making it easier to understand data cha
 
 # TypeScript
 interface : in typescript it is a way to define the contract that an object should follow. It specifies names and types of properties that an object should have.
+# tailwind css
+leading : line height refer the height between each line
