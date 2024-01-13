@@ -35,6 +35,9 @@ IN ES6 and later versions of javaScript ,curly braces {} are used in import stat
 
 trim in javascript is used to remove whitespace from both end of the string
 
+An interface in javascript is a way of defining and enforcing a set of rules of an object or a class.Interface are not in built feature of javascript.
+URLSearchParams is a interface in jacascript that provide utlity methods to work with the query string of a URL 
+
 # Redux 
 redux is a state management library for javascript applications.It provides predictable state container that helps in managing the state of applications
 
