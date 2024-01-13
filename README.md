@@ -33,6 +33,8 @@ The export declaration is used to export values from a JavaScript module
 In JavaScript, a callback function is a function that is passed as an argument to another function and is executed after the completion of some operation
 IN ES6 and later versions of javaScript ,curly braces {} are used in import statements to selectively import named export from modules.
 
+trim in javascript is used to remove whitespace from both end of the string
+
 # Redux 
 redux is a state management library for javascript applications.It provides predictable state container that helps in managing the state of applications
 
