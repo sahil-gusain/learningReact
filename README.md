@@ -55,3 +55,5 @@ Redux follows a unidirectional data flow,making it easier to understand data cha
 interface : in typescript it is a way to define the contract that an object should follow. It specifies names and types of properties that an object should have.
 # tailwind css
 leading : line height refer the height between each line
+# Next js
+server action in next js are asynchronous functions that run only on the server but can be invoked from server-side and client-side componenets to perform mutaions on the server
