@@ -57,3 +57,4 @@ interface : in typescript it is a way to define the contract that an object shou
 leading : line height refer the height between each line
 # Next js
 server action in next js are asynchronous functions that run only on the server but can be invoked from server-side and client-side componenets to perform mutaions on the server
+you can't use async and await in the client components in next js
