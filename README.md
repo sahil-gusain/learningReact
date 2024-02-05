@@ -38,7 +38,16 @@ trim in javascript is used to remove whitespace from both end of the string
 An interface in javascript is a way of defining and enforcing a set of rules of an object or a class.Interface are not in built feature of javascript.
 URLSearchParams is a interface in jacascript that provide utlity methods to work with the query string of a URL 
 
-Difference between require and import in JavaScript is that require is a feature of CommonJS, a module system for Node.js, while import is a part of ES6. 
+Difference between require and import in JavaScript is that require is a feature of CommonJS, a module system for Node.js, while import is a part of ES6.
+
+CommonJS and ES6 modules are two different ways of defining and using modules in JavaScript.
+Syntax: CommonJS uses the require() function to import modules and module.exports or exports object to export modules. ES6 modules use the import and export keywords to import and export variables, functions, classes, etc.
+
+Loading: CommonJS modules are loaded synchronously, meaning that the code execution is blocked until the module is loaded. ES6 modules are loaded asynchronously, meaning that the code execution can continue while the module is being loaded.
+
+Compatibility: CommonJS modules are the default module system in Node.js and are supported by most JavaScript environments. ES6 modules are the standard module system in modern browsers and require a transpiler or a bundler to work in Node.js or older browsers.
+
+Scope: CommonJS modules have a function scope, meaning that the variables and functions declared in a module are only visible within that module. ES6 modules have a file scope, meaning that the variables and functions declared in a module are visible to the whole file. 
 
 # Redux 
 redux is a state management library for javascript applications.It provides predictable state container that helps in managing the state of applications
