@@ -38,6 +38,8 @@ trim in javascript is used to remove whitespace from both end of the string
 An interface in javascript is a way of defining and enforcing a set of rules of an object or a class.Interface are not in built feature of javascript.
 URLSearchParams is a interface in jacascript that provide utlity methods to work with the query string of a URL 
 
+Difference between require and import in JavaScript is that require is a feature of CommonJS, a module system for Node.js, while import is a part of ES6. 
+
 # Redux 
 redux is a state management library for javascript applications.It provides predictable state container that helps in managing the state of applications
 
@@ -58,3 +60,5 @@ leading : line height refer the height between each line
 # Next js
 server action in next js are asynchronous functions that run only on the server but can be invoked from server-side and client-side componenets to perform mutaions on the server
 you can't use async and await in the client components in next js
+
+
