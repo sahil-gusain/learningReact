@@ -69,5 +69,7 @@ leading : line height refer the height between each line
 # Next js
 server action in next js are asynchronous functions that run only on the server but can be invoked from server-side and client-side componenets to perform mutaions on the server
 you can't use async and await in the client components in next js
+# Miscellaneous
+DotEnv is a lightweight npm package that automatically loads environment variables from a .env file into the process.env object.
 
 
