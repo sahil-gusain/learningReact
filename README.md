@@ -2,20 +2,20 @@ This is the repoistry for learning react
 ALL the component name should be capitilized
 # Hooks in React 
 Hooks are used to give functional components an access to use the states and are used to manage side-effects in React. They let developers use state and other React features without writing a class 
-useState is used to update the value of the variable so we can update value of at any 
-useState returns the array with variable at 0 index and function at index 1
+useState is used to update the value of the variable so we can update the value of at any 
+estate returns the array with variable at 0 index and function at index 1
 
 let [count,setCount] = useState(12);
 useCallback
-useEffect:- it reruns the function inside whenever the page is reloaded or the any change occurs in the dependicies
+useEffect:- it reruns the function inside whenever the page is reloaded or any change occurs in the dependencies
 The useEffect Hook allows you to perform side effects in your components.
-Some examples of side effects are: fetching data, directly updating the DOM, and timers.
-useContext hook is a way to manage state globally helps us in avoiding prop drilling
+Some side effects include fetching data, directly updating the DOM, and timers.
+useContext hook is a way to manage state globally helps us avoid prop drilling
 # virtual-dom , react fibre 
 https://github.com/acdlite/react-fiber-architecture
 # Props
-React allows us to pass information to a Component using something called props (which stands for properties). Props are objects which can be used inside a component.
-React does tasks in batches so for  multiple useState funtions  it performs a single task 
+React allows us to pass information to a Component using something called props (which stands for properties). Props are objects that can be used inside a component.
+React does tasks in batches so for  multiple useState functions  it performs a single task 
 while passing the props always remember to check the case for the null
 # ReactJS Fragments
 <Fragment>, often used via <>...</> syntax, lets you group elements without a wrapper node.
@@ -26,17 +26,17 @@ while passing the props always remember to check the case for the null
 onClick function requires a callback function 
 const d = new Date(); // to get the current Date
 d.getFullYear() : used to get the current year
-d.getMonth()  : used to get the currrent Month
+d.getMonth()  : used to get the current Month
 
 The export declaration is used to export values from a JavaScript module
 
 In JavaScript, a callback function is a function that is passed as an argument to another function and is executed after the completion of some operation
-IN ES6 and later versions of javaScript ,curly braces {} are used in import statements to selectively import named export from modules.
+IN ES6 and later versions of JavaScript,curly braces {} are used in import statements to selectively import named exports from modules.
 
-trim in javascript is used to remove whitespace from both end of the string
+trim in javascript is used to remove whitespace from both ends of the string
 
-An interface in javascript is a way of defining and enforcing a set of rules of an object or a class.Interface are not in built feature of javascript.
-URLSearchParams is a interface in jacascript that provide utlity methods to work with the query string of a URL 
+An interface in JavaScript is a way of defining and enforcing a set of rules for an object or a class.Interface is not in built feature of javascript.
+URLSearchParams is an interface in Jacascript that provide utlity methods to work with the query string of a URL 
 
 Difference between require and import in JavaScript is that require is a feature of CommonJS, a module system for Node.js, while import is a part of ES6.
 
@@ -80,4 +80,8 @@ Route-Level:Associated with specific routes or paths.Useful for route-specific t
 Error-handling: Handles errors during the request-response cycle.app.use((err, req, res, next))
 Built-in: Included with Express (e.g., express.json(), express.urlencoded()).Parses request bodies or serves static files
 Third-party: External packages (e.g., morgan, helmet).
+
+# MONGODB
+schema vs model   
+Schema defines the structure of a document or record in a MongoDB collection wheareas model represents a MongoDB collection that acts as a class.It is created by compiling the schema 
 
