@@ -73,13 +73,16 @@ you can't use async and await in the client components in next js
 DotEnv is a lightweight npm package that automatically loads environment variables from a .env file into the process.env object.
 
 # Backend
-middleware: it acts as the bridge or intermediary layer between different layers between different components of the applications.It acts as a interceptor that sits between the initial request and the final route handler.
+Middleware: it acts as the bridge or intermediary layer between different layers between different components of the applications.It acts as a interceptor that sits between the initial request and the final route handler.
 Types of middleware in express: 
 Application-Level: Bound the entire  express applications using app.use()
 Route-Level:Associated with specific routes or paths.Useful for route-specific task app.use('/user/:id', (req, res, next)) 
 Error-handling: Handles errors during the request-response cycle.app.use((err, req, res, next))
 Built-in: Included with Express (e.g., express.json(), express.urlencoded()).Parses request bodies or serves static files
-Third-party: External packages (e.g., morgan, helmet).
+Third-party: External packages (e.g., morgan, helmet).  
+
+JWT(JSON web token) is used to encrypt payload into a signed token that has the permission and authorites of the user  
+HTTP-only cookies are a type of web cookie that comes with a special security attribute that restricts cookie from being accessed by js in the web browser.This prevents XSS attacks
 
 # MONGODB
 schema vs model   
