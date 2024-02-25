@@ -1,4 +1,4 @@
-This is the repoistry for learning react 
+
 ALL the component name should be capitilized
 # Hooks in React 
 Hooks are used to give functional components an access to use the states and are used to manage side-effects in React. They let developers use state and other React features without writing a class 
@@ -18,7 +18,13 @@ React allows us to pass information to a Component using something called props 
 React does tasks in batches so for  multiple useState functions  it performs a single task 
 while passing the props always remember to check the case for the null
 # ReactJS Fragments
-<Fragment>, often used via <>...</> syntax, lets you group elements without a wrapper node.
+<Fragment>, often used via <>...</> syntax, lets you group elements without a wrapper node.  
+
+# react router dom  
+<BrowserRouter> : stores the current location in the browser's address bar using clean URLs and navigates using the browser's built-in history stack.  
+It is used is manage navigation and keep UI in sycn with the url  
+Routes: it is the fundamental part of react-router application. They play a crucial role in connecting URL segments to components, handling data loading,and data mutations.  
+Route : it is an individual route-object or route element.  
 
 
 
