@@ -17,8 +17,10 @@ https://github.com/acdlite/react-fiber-architecture
 React allows us to pass information to a Component using something called props (which stands for properties). Props are objects that can be used inside a component.
 React does tasks in batches so for  multiple useState functions  it performs a single task 
 while passing the props always remember to check the case for the null
-# ReactJS Fragments
+# ReactJS 
 <Fragment>, often used via <>...</> syntax, lets you group elements without a wrapper node.  
+the context Api allows components to share data without having to pass it explicitly through props .It is particularly useful when you need to manage global state or share info across different parts of your application.  You can create a context using the createContext function.The context object returned by createContext doesn't hold info itself we use SomeContext.Provider in components above to specify the context value, and call useContext in components to read it.
+
 
 # react router dom  
 <BrowserRouter> : stores the current location in the browser's address bar using clean URLs and navigates using the browser's built-in history stack.  
