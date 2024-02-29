@@ -55,7 +55,9 @@ Loading: CommonJS modules are loaded synchronously, meaning that the code execut
 
 Compatibility: CommonJS modules are the default module system in Node.js and are supported by most JavaScript environments. ES6 modules are the standard module system in modern browsers and require a transpiler or a bundler to work in Node.js or older browsers.
 
-Scope: CommonJS modules have a function scope, meaning that the variables and functions declared in a module are only visible within that module. ES6 modules have a file scope, meaning that the variables and functions declared in a module are visible to the whole file. 
+Scope: CommonJS modules have a function scope, meaning that the variables and functions declared in a module are only visible within that module. ES6 modules have a file scope, meaning that the variables and functions declared in a module are visible to the whole file.  
+
+FormData() interface allows us to construct a set of key/value pairs representing form fields and their values from the javascript
 
 # Redux 
 redux is a state management library for javascript applications.It provides predictable state container that helps in managing the state of applications
