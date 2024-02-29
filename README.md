@@ -80,7 +80,8 @@ leading : line height refer the height between each line
 server action in next js are asynchronous functions that run only on the server but can be invoked from server-side and client-side components to perform mutations on the server
 you can't use async and await in the client components in next js
 # Miscellaneous
-DotEnv is a lightweight npm package that automatically loads environment variables from a .env file into the process.env object.
+DotEnv is a lightweight npm package that automatically loads environment variables from a .env file into the process.env object.  
+Cors: Cross origin resource sharing .It is a http mechanism that allows resource sharing from one origin to another origin securely.Browsers enforce the same-origin policy, which restricts cross-origin requests initiated from scripts. This policy prevents malicious websites from reading sensitive information on other websites.
 
 # Backend
 Middleware: it acts as the bridge or intermediary layer between different layers between different components of the applications.It acts as a interceptor that sits between the initial request and the final route handler.
