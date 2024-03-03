@@ -99,3 +99,5 @@ HTTP-only cookies are a type of web cookie that comes with a special security at
 schema vs model   
 Schema defines the structure of a document or record in a MongoDB collection wheareas model represents a MongoDB collection that acts as a class.It is created by compiling the schema 
 
+Indexing in mongodb  Indexes is a special data structure(binary tree) that stores some information related to the document such that it becomes easier for mongodb to find the right data .There are various types of indexes like single field indexes,compound field index, multikey index, Geospatial Indexes, Text Index, Hash Index, Wildcard Index
+
