@@ -57,7 +57,11 @@ Compatibility: CommonJS modules are the default module system in Node.js and are
 
 Scope: CommonJS modules have a function scope, meaning that the variables and functions declared in a module are only visible within that module. ES6 modules have a file scope, meaning that the variables and functions declared in a module are visible to the whole file.  
 
-FormData() interface allows us to construct a set of key/value pairs representing form fields and their values from the javascript
+FormData() interface allows us to construct a set of key/value pairs representing form fields and their values from the javascript  
+
+Hoisting : hoisting is the default  behaviour of javascript where all the variables and function declarations are moved at the top
+
+
 
 # Redux 
 redux is a state management library for javascript applications.It provides predictable state container that helps in managing the state of applications
