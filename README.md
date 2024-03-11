@@ -26,7 +26,8 @@ the context Api allows components to share data without having to pass it explic
 <BrowserRouter> : stores the current location in the browser's address bar using clean URLs and navigates using the browser's built-in history stack.  
 It is used is manage navigation and keep UI in sycn with the url  
 Routes: it is the fundamental part of react-router application. They play a crucial role in connecting URL segments to components, handling data loading,and data mutations.  
-Route : it is an individual route-object or route element.  
+Route : it is an individual route-object or route element.    
+useNavigate() hook provides a simple and intutive API to for navigating between the pages in a React application.It is desigend to be used with functional component and hooks,and simplifies the process of handing the url changes int the applications
 
 
 
