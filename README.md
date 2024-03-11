@@ -3,7 +3,8 @@ ALL the component name should be capitilized
 # Hooks in React 
 Hooks are used to give functional components an access to use the states and are used to manage side-effects in React. They let developers use state and other React features without writing a class 
 useState is used to update the value of the variable so we can update the value of at any 
-estate returns the array with variable at 0 index and function at index 1
+estate returns the array with variable at 0 index and function at index 1  
+useRef hook provides a way to create a multiple reference to a value or an element that persists across component renders.
 
 let [count,setCount] = useState(12);
 useCallback
