@@ -24,3 +24,20 @@ onClick function requires a callback function
 const d = new Date(); // to get the current Date
 d.getFullYear() : used to get the current year
 d.getMonth()  : used to get the currrent Month
+
+The export declaration is used to export values from a JavaScript module
+
+In JavaScript, a callback function is a function that is passed as an argument to another function and is executed after the completion of some operation
+
+# Redux 
+redux is a state management library for javascript applications.It provides predictable state container that helps in managing the state of applications
+
+STORE:-It is a single immutable state tree that represents the entire state of an application. Created by using the createStore function
+
+Reducers:- It is a pure functions that specify how the applications state changes in response to an action reducer is created in createSlice which contains name,initial state and reducer
+
+Dipatch:- It is a function used to send actions to the redux store 
+
+Selectors:- IT is a function used to extract specific pieces of from the store 
+
+Redux follows a unidirectional data flow,making it easier to understand data changes occur in the applications
