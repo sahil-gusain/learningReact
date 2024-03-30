@@ -79,6 +79,7 @@ Selectors:- IT is a function used to extract specific pieces of from the store
 Redux follows a unidirectional data flow,making it easier to understand data changes occur in the applications
 
 # TypeScript
+javascript is loosely typed language ,which data types are not needed to be explicitly specify the data types of the data types when declaring it 
 interface : in typescript it is a way to define the contract that an object should follow. It specifies names and types of properties that an object should have.
 # tailwind css
 leading : line height refer the height between each line
