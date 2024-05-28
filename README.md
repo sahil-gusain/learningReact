@@ -42,7 +42,7 @@ The export declaration is used to export values from a JavaScript module
 
   CallBack Function
 
-In JavaScript, a callback function is a function that is passed as an argument to another function and is executed after the completion of some operation
+In JavaScript, a callback function is a function that is passed as an argument to another function and is executed after the completion of some operation  
 IN ES6 and later versions of JavaScript,curly braces {} are used in import statements to selectively import named exports from modules.
 
 trim in javascript is used to remove whitespace from both ends of the string
